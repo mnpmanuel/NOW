@@ -256,10 +256,14 @@ footer.footer .social-link:hover {
   text-decoration: none;
 }
 
-footer.footer .contact {
+footer.footer h4 {
   color: #ffffff;
 }
 
-footer.footer .contact p {
+footer.footer p {
   color: rgb(254,253,56);
+}
+
+footer.footer img {
+  max-height: 2rem;
 }
