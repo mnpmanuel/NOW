@@ -35,6 +35,10 @@ h6 {
   font-weight: 700;
 }
 
+ul {
+  list-style: none;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -80,17 +84,39 @@ h6 {
 }
 
 .masthead {
-  min-height: 30rem;
+  /* min-height: 30rem; */
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  /* padding-top: 8rem;
+  padding-bottom: 8rem; */
+  background: rgb(0, 0, 0);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: left;
+  color: rgb(256,256,256);
+}
+
+.masthead a:link, a:visited {
+  color: rgb(256, 256, 256);
+  text-decoration: none;
+}
+
+.masthead a:hover, a:active {
+  color: rgb(254,253,56);
+  text-decoration: none;
+}
+
+.mastheadCity a:link, a:visited {
+  color: rgb(254,253,56);
+  text-decoration: none;
+}
+
+.mastheadCity a:hover, a:active {
+  color: rgb(256, 256, 256);
+  text-decoration: none;
 }
 
 .masthead h1 {
@@ -101,11 +127,110 @@ h6 {
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    /* height: 100vh; */
+    height: 80%;
   }
   .masthead h1 {
     font-size: 5.5rem;
   }
+}
+
+.manifest {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.manifest yellow {
+  background-color: rgb(254, 253, 56);
+}
+
+.lisboa {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  font-weight: bold;
+  /* color: rgb(0, 0, 0); */
+}
+
+.lisboa h1 {
+  font-size: 15rem;
+  color: rgb(254,253,56);
+}
+
+.lisboa a:link, a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.lisboa a:hover, a:active {
+  color: rgb(254,253,56);
+  text-decoration: none;
+}
+
+.porto {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  font-weight: bold;
+  background-color: rgb(254,253,56);
+  /* color: rgb(0, 0, 0); */
+}
+
+.porto h1 {
+  font-size: 15rem;
+  color: rgb(256, 256, 256);
+}
+
+.porto a:link, a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.porto a:hover, a:active {
+  color: rgb(256,256,256);
+  text-decoration: none;
+}
+
+.pricing {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background-color: rgb(254,253,56);
+}
+
+.pricingBox {
+  background-color: #fff;
+  color: rgb(0,0,0);
+  height: 10rem;
+  width: 10rem;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  /* line-height: 7.5rem; */
+  /* font-size: 2.25rem; */
+  /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
+}
+
+.team {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background-color: #ffffff;
+}
+
+.teamBox {
+  background-color: #000000;
+  color: rgb(254,253,56);
+  height: 10rem;
+  width: 10rem;
+  display: block;
+  text-align: center;
+  /* line-height: 7.5rem; */
+  /* font-size: 2.25rem; */
+  /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
+}
+
+.teamBox img {
+  max-width: 8rem;
+  max-height: 8rem;
 }
 
 /* Side Menu */
@@ -204,7 +329,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: rgb(0,0,0);
   height: 7rem;
   width: 7rem;
   display: block;
