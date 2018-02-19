@@ -13,8 +13,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .content-section-heading h2 {
@@ -37,25 +37,6 @@ h6 {
 
 ul {
   list-style: none;
-}
-
-.text-faded {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 .scroll-to-top {
@@ -136,8 +117,8 @@ ul {
 }
 
 .manifest {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 2.5rem;
+  /* padding-bottom: 2.5rem; */
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
@@ -147,8 +128,8 @@ ul {
 }
 
 .lisboa {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  /* padding-top: 2.5rem; */
+  padding-bottom: 2.5rem;
   font-weight: bold;
   /* color: rgb(0, 0, 0); */
 }
@@ -169,8 +150,8 @@ ul {
 }
 
 .porto {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   font-weight: bold;
   background-color: rgb(254,253,56);
   /* color: rgb(0, 0, 0); */
@@ -192,8 +173,8 @@ ul {
 }
 
 .pricing {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   background-color: rgb(254,253,56);
 }
 
@@ -205,14 +186,14 @@ ul {
   display: block;
   font-weight: bold;
   text-align: center;
-  /* line-height: 7.5rem; */
+  /* line-height: 2.5rem; */
   /* font-size: 2.25rem; */
   /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .team {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   background-color: #ffffff;
 }
 
@@ -223,7 +204,7 @@ ul {
   width: 10rem;
   display: block;
   text-align: center;
-  /* line-height: 7.5rem; */
+  /* line-height: 2.5rem; */
   /* font-size: 2.25rem; */
   /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
