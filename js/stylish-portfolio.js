@@ -40,6 +40,15 @@
     }
   });
 
+  // Hover mouse to unfold details
+  $(".panel-heading").hover(
+   function() {
+      $('.panel-collapse').collapse('show');
+    }, function() {
+      $('.panel-collapse').collapse('hide');
+    }
+  );
+
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling

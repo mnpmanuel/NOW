@@ -91,12 +91,12 @@ ul {
   text-decoration: none;
 }
 
-.mastheadCity a:link, a:visited {
+.masthead .mastheadCity a:link, a:visited {
   color: rgb(254,253,56);
   text-decoration: none;
 }
 
-.mastheadCity a:hover, a:active {
+.masthead .mastheadCity a:hover, a:active {
   color: rgb(256, 256, 256);
   text-decoration: none;
 }
