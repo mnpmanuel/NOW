@@ -2,6 +2,7 @@ body,
 html {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -186,9 +187,20 @@ ul {
   display: block;
   font-weight: bold;
   text-align: center;
+  position: relative;
   /* line-height: 2.5rem; */
   /* font-size: 2.25rem; */
   /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
+}
+
+.pricingBox .content {
+  max-width: 90%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .team {
@@ -201,17 +213,28 @@ ul {
   background-color: #000000;
   color: rgb(254,253,56);
   height: 15rem;
-  width: 10rem;
+  width: 15rem;
   display: block;
   text-align: center;
+  position: relative;
   /* line-height: 2.5rem; */
   /* font-size: 2.25rem; */
   /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
-.teamBox img {
-  max-width: 7rem;
-  max-height: 7rem;
+.teamBox .content {
+  max-width: 90%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.teamBox .content img {
+  max-width: 65%;
+  /* max-height: 8rem; */
   /* color: rgba(254,253,56, 0.1); */
 }
 
@@ -245,6 +268,11 @@ footer.footer p {
   color: rgb(254,253,56);
 }
 
-footer.footer img {
-  max-height: 2rem;
+footer.footer .logos {
+  max-width: 70%;
+  padding-top: 2rem;
+}
+
+footer.footer .logos img {
+  max-height: 1.5rem;
 }
