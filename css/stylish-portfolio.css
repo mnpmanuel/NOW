@@ -203,6 +203,16 @@ ul {
   transform: translate(-50%, -50%)
 }
 
+.pricingBox a:link, a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.pricingBox a:hover, a:active {
+  color: rgb(254,253,56);
+  text-decoration: none;
+}
+
 .team {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -266,6 +276,16 @@ footer.footer h4 {
 
 footer.footer p {
   color: rgb(254,253,56);
+}
+
+footer.footer .contact a:link, a:visited {
+  color: rgb(254,253,56);
+  text-decoration: none;
+}
+
+footer.footer .contact a:hover, a:active {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 footer.footer .logos {
