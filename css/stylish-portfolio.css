@@ -110,7 +110,8 @@ ul {
 @media (min-width: 992px) {
   .masthead {
     /* height: 100vh; */
-    height: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   .masthead h1 {
     font-size: 5.5rem;
@@ -122,6 +123,12 @@ ul {
   /* padding-bottom: 2.5rem; */
   font-weight: bold;
   color: rgb(0, 0, 0);
+}
+
+@media (min-width: 766px) {
+  .manifest p {
+    max-width: 75%;
+  }
 }
 
 .manifest yellow {
@@ -138,6 +145,21 @@ ul {
 .lisboa h1 {
   font-size: 15rem;
   color: rgb(254,253,56);
+}
+@media screen and (max-width: 991px) {
+  .lisboa h1 {
+    font-size: 10rem;
+  }
+}
+@media screen and (max-width: 514px) {
+  .lisboa h1 {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 361px) {
+  .lisboa h1 {
+    font-size: 5.5rem;
+  }
 }
 
 .lisboa a:link, a:visited {
@@ -161,6 +183,21 @@ ul {
 .porto h1 {
   font-size: 15rem;
   color: rgb(256, 256, 256);
+}
+@media screen and (max-width: 991px) {
+  .porto h1 {
+    font-size: 10rem;
+  }
+}
+@media screen and (max-width: 514px) {
+  .porto h1 {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 361px) {
+  .porto h1 {
+    font-size: 5.5rem;
+  }
 }
 
 .porto a:link, a:visited {
@@ -254,15 +291,42 @@ footer.footer {
   background-color: #000000;
 }
 
+footer.footer .socialMedia {
+  margin-left: 10%;
+}
+@media screen and (min-width: 610px) {
+  footer.footer .socialMedia {
+    margin-left: 20%;
+  }
+}
+@media screen and (min-width: 830px) {
+  footer.footer .socialMedia {
+    margin-left: 30%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  footer.footer .socialMedia {
+    margin-left: 40%;
+  }
+}
+
 footer.footer .social-link {
   display: block;
-  height: 3rem;
-  width: 3rem;
-  line-height: 3.3rem;
-  font-size: 1.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
   background-color: #ffffff;
   color: #000000;
   transition: background-color 0.15s ease-in-out;
+}
+@media screen and (min-width: 540px) {
+  footer.footer .social-link {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3.3rem;
+    font-size: 1.5rem;
+  }
 }
 
 footer.footer .social-link:hover {
@@ -289,10 +353,25 @@ footer.footer .contact a:hover, a:active {
 }
 
 footer.footer .logos {
-  max-width: 70%;
+  max-width: 80%;
   padding-top: 2rem;
 }
 
 footer.footer .logos img {
   max-height: 1.5rem;
+}
+@media screen and (min-width: 1016px) {
+  footer.footer .logos {
+    /* max-width: 80%; */
+  }
+}
+@media screen and (min-width: 1441px) {
+  footer.footer .logos {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 1956px) {
+  footer.footer .logos {
+    max-width: 40%;
+  }
 }
