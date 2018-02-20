@@ -386,11 +386,6 @@ footer.footer .logos {
 footer.footer .logos img {
   max-height: 1.5rem;
 }
-@media screen and (min-width: 1016px) {
-  footer.footer .logos {
-    /* max-width: 80%; */
-  }
-}
 @media screen and (min-width: 1441px) {
   footer.footer .logos {
     max-width: 60%;
@@ -415,18 +410,8 @@ footer.footer .logosSM {
 footer.footer .logosSM img {
   max-height: 1.5rem;
 }
-@media screen and (min-width: 1016px) {
+@media screen and (min-width: 978px) {
   footer.footer .logosSM {
-    /* max-width: 80%; */
-  }
-}
-@media screen and (min-width: 1441px) {
-  footer.footer .logosSM {
-    max-width: 60%;
-  }
-}
-@media screen and (min-width: 1956px) {
-  footer.footer .logosSM {
-    max-width: 40%;
+    display: none;
   }
 }
