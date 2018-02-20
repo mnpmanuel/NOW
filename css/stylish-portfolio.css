@@ -401,3 +401,32 @@ footer.footer .logos img {
     max-width: 40%;
   }
 }
+@media screen and (max-width: 978px) {
+  footer.footer .logos {
+    display: none;
+  }
+}
+
+footer.footer .logosSM {
+  max-width: 80%;
+  padding-top: 2rem;
+}
+
+footer.footer .logosSM img {
+  max-height: 1.5rem;
+}
+@media screen and (min-width: 1016px) {
+  footer.footer .logosSM {
+    /* max-width: 80%; */
+  }
+}
+@media screen and (min-width: 1441px) {
+  footer.footer .logosSM {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 1956px) {
+  footer.footer .logosSM {
+    max-width: 40%;
+  }
+}
