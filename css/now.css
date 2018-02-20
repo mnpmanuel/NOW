@@ -70,16 +70,16 @@ ul {
   display: table;
   width: 100%;
   height: auto;
-  background: rgb(0, 0, 0);
+  background: #000000;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: left;
-  color: rgb(256,256,256);
+  color: #ffffff;
 }
 
 .masthead a:link, a:visited {
-  color: rgb(256, 256, 256);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ ul {
 }
 
 .masthead .mastheadCity a:hover, a:active {
-  color: rgb(256, 256, 256);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ ul {
 .manifest {
   padding-top: 2.5rem;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 @media (min-width: 766px) {
@@ -156,7 +156,7 @@ ul {
 }
 
 .lisboa a:link, a:visited {
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-decoration: none;
 }
 
@@ -184,7 +184,7 @@ ul {
 
 .porto h1 {
   font-size: 15rem;
-  color: rgb(256, 256, 256);
+  color: #ffffff;
 }
 @media screen and (max-width: 991px) {
   .porto h1 {
@@ -203,12 +203,12 @@ ul {
 }
 
 .porto a:link, a:visited {
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-decoration: none;
 }
 
 .porto a:hover, a:active {
-  color: rgb(256,256,256);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -229,8 +229,8 @@ ul {
 }
 
 .pricingBox {
-  background-color: #fff;
-  color: rgb(0,0,0);
+  background-color: #ffffff;
+  color: #000000;
   height: 10rem;
   width: 10rem;
   display: block;
@@ -250,7 +250,7 @@ ul {
 }
 
 .pricingBox a:link, a:visited {
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-decoration: none;
 }
 
@@ -387,6 +387,10 @@ footer.footer .logos {
   padding-top: 2rem;
 }
 
+footer.footer .logos a {
+  text-decoration: none;
+}
+
 footer.footer .logos img {
   max-height: 1.5rem;
 }
@@ -409,6 +413,10 @@ footer.footer .logos img {
 footer.footer .logosSM {
   max-width: 80%;
   padding-top: 2rem;
+}
+
+footer.footer .logosSM a {
+  text-decoration: none;
 }
 
 footer.footer .logosSM img {
