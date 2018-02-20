@@ -66,13 +66,10 @@ ul {
 }
 
 .masthead {
-  /* min-height: 30rem; */
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  /* padding-top: 8rem;
-  padding-bottom: 8rem; */
   background: rgb(0, 0, 0);
   background-position: center center;
   background-repeat: no-repeat;
@@ -109,7 +106,6 @@ ul {
 
 @media (min-width: 992px) {
   .masthead {
-    /* height: 100vh; */
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
@@ -120,7 +116,6 @@ ul {
 
 .manifest {
   padding-top: 2.5rem;
-  /* padding-bottom: 2.5rem; */
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
@@ -136,10 +131,8 @@ ul {
 }
 
 .lisboa {
-  /* padding-top: 2.5rem; */
   padding-bottom: 2.5rem;
   font-weight: bold;
-  /* color: rgb(0, 0, 0); */
 }
 
 .lisboa h1 {
@@ -172,12 +165,21 @@ ul {
   text-decoration: none;
 }
 
+.lisboa .mapLink a:link, a:visited {
+  color: rgb(254,253,56);
+  text-decoration: none;
+}
+
+.lisboa .mapLink a:hover, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
 .porto {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   font-weight: bold;
   background-color: rgb(254,253,56);
-  /* color: rgb(0, 0, 0); */
 }
 
 .porto h1 {
@@ -210,6 +212,16 @@ ul {
   text-decoration: none;
 }
 
+.porto .mapLink a:link, a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.porto .mapLink a:hover, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
 .pricing {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -225,9 +237,6 @@ ul {
   font-weight: bold;
   text-align: center;
   position: relative;
-  /* line-height: 2.5rem; */
-  /* font-size: 2.25rem; */
-  /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .pricingBox .content {
@@ -264,9 +273,6 @@ ul {
   display: block;
   text-align: center;
   position: relative;
-  /* line-height: 2.5rem; */
-  /* font-size: 2.25rem; */
-  /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .teamBox .content {
@@ -276,13 +282,11 @@ ul {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .teamBox .content img {
   max-width: 65%;
-  /* max-height: 8rem; */
-  /* color: rgba(254,253,56, 0.1); */
 }
 
 footer.footer {
