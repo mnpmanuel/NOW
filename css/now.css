@@ -104,6 +104,10 @@ ul {
   padding: 0;
 }
 
+.masthead img {
+  padding-bottom: 100px;
+}
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: 5rem;
