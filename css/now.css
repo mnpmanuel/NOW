@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-xl {
@@ -138,6 +138,7 @@ ul {
 .lisboa h1 {
   font-size: 15rem;
   color: rgb(254,253,56);
+  letter-spacing: -15px;
 }
 @media screen and (max-width: 991px) {
   .lisboa h1 {
@@ -185,6 +186,7 @@ ul {
 .porto h1 {
   font-size: 15rem;
   color: #ffffff;
+  letter-spacing: -15px;
 }
 @media screen and (max-width: 991px) {
   .porto h1 {
@@ -276,7 +278,7 @@ ul {
 }
 
 .teamBox .content {
-  max-width: 90%;
+  max-width: 100%;
   margin: 0;
   position: absolute;
   top: 50%;
