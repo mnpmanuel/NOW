@@ -287,8 +287,15 @@ ul {
   transform: translate(-50%, -50%);
 }
 
-.teamBox .content img {
+.teamBox .content .filter {
+  background-color: rgb(254,253,56);
   max-width: 65%;
+}
+
+.teamBox .content .filter img {
+  opacity: 0.75;
+  max-width: 100%;
+  filter:grayscale(100%);
 }
 
 footer.footer {
