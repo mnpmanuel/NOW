@@ -88,6 +88,10 @@ ul {
   text-decoration: none;
 }
 
+.masthead .mastheadCity {
+  color: rgb(254,253,56);
+}
+
 .masthead .mastheadCity a:link, a:visited {
   color: rgb(254,253,56);
   text-decoration: none;
