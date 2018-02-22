@@ -74,6 +74,13 @@ ul {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background: url(../img/background.png) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; */
   text-align: left;
   color: #ffffff;
 }
