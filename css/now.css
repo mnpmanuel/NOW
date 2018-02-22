@@ -110,6 +110,7 @@ ul {
 
 .masthead img {
   padding-bottom: 100px;
+  min-width: 30%;
 }
 
 @media (min-width: 992px) {
@@ -126,6 +127,10 @@ ul {
   padding-top: 2.5rem;
   font-weight: bold;
   color: #000000;
+}
+
+.manifest p {
+  font-size: 16px;
 }
 
 @media (min-width: 766px) {
