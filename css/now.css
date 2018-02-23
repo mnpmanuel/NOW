@@ -198,36 +198,6 @@ ul {
   }
 }
 
-.masthead .nowman {
-  margin-right: 0px;
-  margin-left: 0%;
-  margin-top: -67%;
-}
-@media (min-width: 500px) and (max-width: 1000px) {
-  .masthead .nowman {
-    margin-left: 35%;
-    margin-top: -61%;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1439px) {
-  .masthead .nowman {
-    margin-left: 46%;
-    margin-top: -49%;
-  }
-}
-@media (min-width: 1440px) and (max-width: 2560px) {
-  .masthead .nowman {
-    margin-left: 58%;
-    margin-top: -34%;
-  }
-}
-@media screen and (min-width: 2560px) {
-  .masthead .nowman {
-    margin-left: 72%;
-    margin-top: -20%;
-  }
-}
-
 .manifest {
   padding-top: 2.5rem;
   font-weight: bold;
