@@ -361,6 +361,11 @@ ul {
   text-decoration: none;
 }
 
+.pricing .tax {
+  font-weight: bold;
+  text-align: right;
+}
+
 .team {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
