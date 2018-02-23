@@ -134,7 +134,7 @@ ul {
 .masthead .topnav {
   text-align: right;
   margin-top: -1%;
-  margin-right: 3%;
+  margin-right: 10%;
   color: #ffffff;
   /* word-spacing: 30px; */
   /* font-size: 120%; */
@@ -154,6 +154,55 @@ ul {
 .topnav .topnavActive {
     background-color: transparent;
     border-bottom: 2px solid #fef038;
+}
+
+@media screen and (max-width: 425px) {
+  .masthead .container {
+    margin-top: -65px;
+  }
+  .topnav {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 991px) {
+  .masthead .container {
+    margin-top: -15px;
+  }
+  .masthead .topnav {
+    margin-top: 25px;
+  }
+}
+
+.masthead .topnavMobile {
+  text-align: right;
+  margin-top: 25px;
+  margin-right: 3%;
+  color: #ffffff;
+  /* word-spacing: 30px; */
+  /* font-size: 120%; */
+}
+
+.topnavMobile a:link,
+.topnavMobile a:visited {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 0%;
+}
+.topnavMobile a:hover,
+.topnavMobile a:focus {
+    color: #fef038;
+}
+
+.topnavMobile .topnavActive {
+    background-color: transparent;
+    border-bottom: 2px solid #fef038;
+}
+
+@media screen and (min-width: 426px) {
+  .topnavMobile {
+    display: none;
+  }
 }
 
 .manifest {
