@@ -356,18 +356,14 @@ footer.footer {
   background-color: #000000;
   /* height: 100%; */
 }
-
-footer.footer .socialMedia {
-  margin-left: 20%;
-}
-@media screen and (min-width: 830px) {
-  footer.footer .socialMedia {
-    margin-left: 30%;
+@media screen and (max-width: 340px) {
+  footer.footer .socialMedia .coluna {
+    display: none;
   }
 }
-@media screen and (min-width: 2000px) {
+@media screen and (max-width: 767px) {
   footer.footer .socialMedia {
-    margin-left: 40%;
+    margin-bottom: 5%;
   }
 }
 
@@ -385,15 +381,6 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #fef038;
   text-decoration: none;
-}
-
-@media screen and (max-width: 540px) {
-  footer.footer .socialMedia {
-    display: none;
-  }
-  footer.footer .social-link {
-    display: none;
-  }
 }
 
 footer.footer .socialMediaXS {
