@@ -479,7 +479,7 @@ footer.footer .contact a:hover, a:active {
 }
 
 footer.footer .logos {
-  max-width: 80%;
+  max-width: 90%;
   padding-top: 2rem;
 }
 
@@ -492,12 +492,12 @@ footer.footer .logos img {
 }
 @media screen and (min-width: 1441px) {
   footer.footer .logos {
-    max-width: 60%;
+    max-width: 90%;
   }
 }
 @media screen and (min-width: 1956px) {
   footer.footer .logos {
-    max-width: 40%;
+    max-width: 50%;
   }
 }
 @media screen and (max-width: 978px) {
