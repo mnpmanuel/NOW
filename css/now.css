@@ -487,7 +487,7 @@ footer.footer .logos a {
 }
 
 footer.footer .logos img {
-  max-height: 1.5rem;
+  max-width: 5rem;
 }
 @media screen and (min-width: 1441px) {
   footer.footer .logos {
@@ -499,7 +499,7 @@ footer.footer .logos img {
     max-width: 50%;
   }
 }
-@media screen and (max-width: 978px) {
+/* @media screen and (max-width: 978px) {
   footer.footer .logos {
     display: none;
   }
@@ -521,4 +521,4 @@ footer.footer .logosSM img {
   footer.footer .logosSM {
     display: none;
   }
-}
+} */
