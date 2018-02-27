@@ -485,7 +485,7 @@ footer.footer .contact a:hover, a:active {
 }
 
 footer.footer .logos {
-  max-width: 90%;
+  /* max-width: 90%; */
   padding-top: 2rem;
 }
 
@@ -497,7 +497,7 @@ footer.footer .logos img {
   max-width: 6rem;
   max-height: 2.5rem;
 }
-@media screen and (min-width: 1441px) {
+/* @media screen and (min-width: 1441px) {
   footer.footer .logos {
     max-width: 90%;
   }
@@ -506,7 +506,7 @@ footer.footer .logos img {
   footer.footer .logos {
     max-width: 50%;
   }
-}
+} */
 /* @media screen and (max-width: 978px) {
   footer.footer .logos {
     display: none;
