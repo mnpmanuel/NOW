@@ -114,6 +114,12 @@ ul {
   margin-top: -3%;
 }
 
+@media screen and (max-width: 457px) {
+  .masthead .nowman {
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: 5rem;
@@ -151,7 +157,8 @@ ul {
 
 @media screen and (max-width: 425px) {
   .masthead .container {
-    margin-top: -65px;
+    position: relative;
+    top: -75px;
   }
   .topnav {
     display: none;
