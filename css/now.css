@@ -226,7 +226,7 @@ ul {
 @media screen and (min-width: 1439px) {
  .manifest .container {
     top: 50%;
-    transform: translatey(50%);
+    transform: translatey(60%);
   }
 }
 @media screen and (min-width: 2559px) {
