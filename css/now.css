@@ -209,12 +209,31 @@ ul {
   /* padding-top: 2.5rem; */
   font-weight: bold;
   color: #000000;
-  height: 100%;
+  min-height: 100%;
 }
-
-.manifest .container {
-  top: 50%;
-  transform: translatey(50%);
+@media screen and (min-width: 767px) {
+ .manifest .container {
+    top: 50%;
+    transform: translatey(4%);
+  }
+}
+@media screen and (min-width: 1023px) {
+ .manifest .container {
+    top: 50%;
+    transform: translatey(25%);
+  }
+}
+@media screen and (min-width: 1439px) {
+ .manifest .container {
+    top: 50%;
+    transform: translatey(50%);
+  }
+}
+@media screen and (min-width: 2559px) {
+ .manifest .container {
+    top: 50%;
+    transform: translatey(150%);
+  }
 }
 
 .manifest p {
@@ -234,12 +253,31 @@ ul {
 .lisboa {
   /* padding-bottom: 2.5rem; */
   font-weight: bold;
-  height: 100%;
+  min-height: 100%;
 }
-
-.lisboa .container {
-  top: 50%;
-  transform: translatey(50%);
+@media screen and (min-width: 767px) {
+ .lisboa .container {
+    top: 50%;
+    transform: translatey(4%);
+  }
+}
+@media screen and (min-width: 1023px) {
+ .lisboa .container {
+    top: 50%;
+    transform: translatey(25%);
+  }
+}
+@media screen and (min-width: 1439px) {
+ .lisboa .container {
+    top: 50%;
+    transform: translatey(50%);
+  }
+}
+@media screen and (min-width: 2559px) {
+ .lisboa .container {
+    top: 50%;
+    transform: translatey(150%);
+  }
 }
 
 .lisboa h1 {
@@ -288,12 +326,31 @@ ul {
   padding-bottom: 2.5rem; */
   font-weight: bold;
   background-color: #fef038;
-  height: 100%;
+  min-height: 100%;
 }
-
-.porto .container {
-  top: 50%;
-  transform: translatey(50%);
+@media screen and (min-width: 767px) {
+ .porto .container {
+    top: 50%;
+    transform: translatey(4%);
+  }
+}
+@media screen and (min-width: 1023px) {
+ .porto .container {
+    top: 50%;
+    transform: translatey(25%);
+  }
+}
+@media screen and (min-width: 1439px) {
+ .porto .container {
+    top: 50%;
+    transform: translatey(50%);
+  }
+}
+@media screen and (min-width: 2559px) {
+ .porto .container {
+    top: 50%;
+    transform: translatey(150%);
+  }
 }
 
 .porto h1 {
@@ -341,12 +398,31 @@ ul {
   /* padding-top: 2.5rem;
   padding-bottom: 2.5rem; */
   background-color: #fef038;
-  height: 100%;
+  min-height: 100%;
 }
-
-.pricing .container {
-  top: 50%;
-  transform: translatey(50%);
+@media screen and (min-width: 767px) {
+ .pricing .container {
+    top: 50%;
+    transform: translatey(1%);
+  }
+}
+@media screen and (min-width: 1023px) {
+ .pricing .container {
+    top: 50%;
+    transform: translatey(25%);
+  }
+}
+@media screen and (min-width: 1439px) {
+ .pricing .container {
+    top: 50%;
+    transform: translatey(50%);
+  }
+}
+@media screen and (min-width: 2559px) {
+ .pricing .container {
+    top: 50%;
+    transform: translatey(150%);
+  }
 }
 
 .pricingBox {
@@ -389,12 +465,31 @@ ul {
   /* padding-top: 2.5rem;
   padding-bottom: 2.5rem; */
   background-color: #ffffff;
-  height: 100%;
+  min-height: 100%;
 }
-
-.team .container {
-  top: 50%;
-  transform: translatey(50%);
+@media screen and (min-width: 767px) {
+ .team .container {
+    top: 50%;
+    transform: translatey(0%);
+  }
+}
+@media screen and (min-width: 1023px) {
+ .team .container {
+    top: 50%;
+    transform: translatey(25%);
+  }
+}
+@media screen and (min-width: 1439px) {
+ .team .container {
+    top: 50%;
+    transform: translatey(50%);
+  }
+}
+@media screen and (min-width: 2559px) {
+ .team .container {
+    top: 50%;
+    transform: translatey(150%);
+  }
 }
 
 .teamBox {
