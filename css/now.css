@@ -412,25 +412,25 @@ ul {
 @media screen and (min-width: 767px) {
  .community .container {
     top: 50%;
-    transform: translatey(0%);
+    transform: translatey(25%);
   }
 }
 @media screen and (min-width: 1023px) {
  .community .container {
     top: 50%;
-    transform: translatey(25%);
+    transform: translatey(50%);
   }
 }
 @media screen and (min-width: 1439px) {
  .community .container {
     top: 50%;
-    transform: translatey(50%);
+    transform: translatey(90%);
   }
 }
 @media screen and (min-width: 2559px) {
  .community .container {
     top: 50%;
-    transform: translatey(150%);
+    transform: translatey(200%);
   }
 }
 
