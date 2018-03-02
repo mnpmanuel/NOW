@@ -69,7 +69,7 @@ ul {
   position: relative;
   display: table;
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   background: #000000;
   background-position: center center;
   background-repeat: no-repeat;
@@ -209,7 +209,12 @@ ul {
   padding-top: 2.5rem;
   font-weight: bold;
   color: #000000;
-  /* height: 100%; */
+  height: 100%;
+}
+
+.manifest .container {
+  top: 50%;
+  transform: translatey(50%);
 }
 
 .manifest p {
@@ -229,7 +234,12 @@ ul {
 .lisboa {
   padding-bottom: 2.5rem;
   font-weight: bold;
-  /* height: 100%; */
+  height: 100%;
+}
+
+.lisboa .container {
+  top: 50%;
+  transform: translatey(50%);
 }
 
 .lisboa h1 {
@@ -278,7 +288,12 @@ ul {
   padding-bottom: 2.5rem;
   font-weight: bold;
   background-color: #fef038;
-  /* height: 100%; */
+  height: 100%;
+}
+
+.porto .container {
+  top: 50%;
+  transform: translatey(50%);
 }
 
 .porto h1 {
@@ -326,7 +341,12 @@ ul {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   background-color: #fef038;
-  /* height: 100%; */
+  height: 100%;
+}
+
+.pricing .container {
+  top: 50%;
+  transform: translatey(50%);
 }
 
 .pricingBox {
@@ -369,7 +389,12 @@ ul {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   background-color: #ffffff;
-  /* height: 100%; */
+  height: 100%;
+}
+
+.team .container {
+  top: 50%;
+  transform: translatey(50%);
 }
 
 .teamBox {
