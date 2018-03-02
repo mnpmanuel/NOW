@@ -394,6 +394,42 @@ ul {
   text-decoration: none;
 }
 
+.community {
+  /* padding-top: 2.5rem;
+  padding-bottom: 2.5rem; */
+  background-color: #ffffff;
+  min-height: 100%;
+}
+@media screen and (min-width: 767px) {
+ .community .container {
+    top: 50%;
+    transform: translatey(0%);
+  }
+}
+@media screen and (min-width: 1023px) {
+ .community .container {
+    top: 50%;
+    transform: translatey(25%);
+  }
+}
+@media screen and (min-width: 1439px) {
+ .community .container {
+    top: 50%;
+    transform: translatey(50%);
+  }
+}
+@media screen and (min-width: 2559px) {
+ .community .container {
+    top: 50%;
+    transform: translatey(150%);
+  }
+}
+
+.community img {
+  max-width: 19rem;
+  max-height: 12.5rem;
+}
+
 .pricing {
   /* padding-top: 2.5rem;
   padding-bottom: 2.5rem; */
