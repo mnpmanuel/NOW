@@ -445,6 +445,9 @@ ul {
   background-color: #fef038;
   min-height: 100%;
 }
+.pricing .container {
+  transform: translatey(0.2%);
+}
 @media screen and (min-width: 767px) {
  .pricing .container {
     top: 50%;
@@ -454,13 +457,13 @@ ul {
 @media screen and (min-width: 1023px) {
  .pricing .container {
     top: 50%;
-    transform: translatey(25%);
+    transform: translatey(50%);
   }
 }
 @media screen and (min-width: 1439px) {
  .pricing .container {
     top: 50%;
-    transform: translatey(50%);
+    transform: translatey(75%);
   }
 }
 @media screen and (min-width: 2559px) {
