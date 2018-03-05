@@ -435,36 +435,43 @@ ul {
 }
 .communiti h1 {
   letter-spacing: -7px;
+  color: #000000;
 }
 @media screen and (min-width: 319px) {
   .community h1 {
     font-size: 1.5rem;
+    color: #000000;
   }
 }
 @media screen and (min-width: 424px) {
   .community h1 {
     font-size: 2rem;
+    color: #000000;
   }
 }
 @media screen and (min-width: 767px) {
   .community h1 {
     font-size: 3.5rem;
+    color: #000000;
   }
 }
 @media screen and (min-width: 1023px) {
   .community h1 {
     font-size: 4rem;
     letter-spacing: -7px;
+    color: #000000;
   }
 }
 @media screen and (min-width: 1023px) {
   .community h1 {
     font-size: 5rem;
+    color: #000000;
   }
 }
 @media screen and (min-width: 1439px) {
   .community h1 {
     font-size: 6rem;
+    color: #000000;
   }
 }
 
