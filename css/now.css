@@ -591,8 +591,6 @@ ul {
 }
 
 .teamBox {
-  background-color: #000000;
-  color: #fef038;
   height: 15rem;
   width: 15rem;
   display: block;
@@ -611,14 +609,43 @@ ul {
 }
 
 .teamBox .content .filter {
-  background-color: #fef038;
   max-width: 65%;
 }
 
 .teamBox .content .filter img {
-  opacity: 0.75;
   max-width: 100%;
-  filter:grayscale(100%);
+}
+
+.teamBox a {
+	display: block;
+	float: left;
+	margin-bottom: 25px;
+	position: relative;
+
+}
+
+/*Left and Right margins to images in the middle column*/
+/*This selects the 2nd, 5th and 8th elements*/
+.teamBox a:nth-child(3n+2) {
+	margin: 0 25px 25px 25px;
+}
+
+.teamBox a img {
+	display: block;
+	-webkit-transition: all 0.5s;
+}
+
+/*Hover effects*/
+.teamBox a img:hover {
+  -webkit-filter: opacity(50%);
+}
+/*Default state for brightness has to be specified specifically*/
+.teamBox a img.brightness:hover {
+	-webkit-filter: brightness(0);
+  /* color: #fef038; */
+}
+.grayscale {
+  /* filter: #fef038; */
 }
 
 footer.footer {
