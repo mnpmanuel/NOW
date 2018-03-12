@@ -574,13 +574,13 @@ ul {
 @media screen and (min-width: 1023px) {
  .team .container {
     top: 50%;
-    transform: translatey(25%);
+    transform: translatey(45%);
   }
 }
 @media screen and (min-width: 1439px) {
  .team .container {
     top: 50%;
-    transform: translatey(50%);
+    transform: translatey(60%);
   }
 }
 @media screen and (min-width: 2559px) {
