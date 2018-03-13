@@ -49,23 +49,6 @@
     }
   );
 
-  // TO IMPLEMENT LOOK AT THIS: http://www.aspforums.net/Threads/821782/Show-hide-multiple-DIV-elements-on-mouseover-using-jQuery/
-  // $(function () {
-  //   $(".city").bind("mouseover", function () {
-  //       var index = $(this).attr("id").replace("city", "");
-  //       $(".icontent" + index).show();
-  //   });
-  //   $(".city").bind("mouseout", function () {
-  //       var index = $(this).attr("id").replace("city", "");
-  //       $(".icontent" + index).hide();
-  //   });
-  // });
-
-  // $('.panel-heading').hover(function() {
-  //     $(this).children('.panel-collapse').stop(true, true).fadeToggle('slow');
-  // });
-
-
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling
