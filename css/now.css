@@ -142,8 +142,6 @@ ul {
   margin-top: -1%;
   margin-right: 10%;
   color: #ffffff;
-  /* word-spacing: 30px; */
-  /* font-size: 120%; */
 }
 
 .topnav a:link,
@@ -186,8 +184,6 @@ ul {
   margin-top: 25px;
   margin-right: 3%;
   color: #ffffff;
-  /* word-spacing: 30px; */
-  /* font-size: 120%; */
 }
 
 .topnavMobile a:link,
@@ -213,7 +209,6 @@ ul {
 }
 
 .manifest {
-  /* padding-top: 2.5rem; */
   font-weight: bold;
   color: #000000;
   min-height: 100%;
@@ -241,7 +236,6 @@ ul {
 }
 
 .lisboa {
-  /* padding-bottom: 2.5rem; */
   font-weight: bold;
   min-height: 100%;
   background-color: #000000;
@@ -300,8 +294,6 @@ ul {
 }
 
 .porto {
-  /* padding-top: 2.5rem;
-  padding-bottom: 2.5rem; */
   font-weight: bold;
   background-color: #fef038;
   min-height: 100%;
@@ -356,8 +348,6 @@ ul {
 }
 
 .community {
-  /* padding-top: 2.5rem;
-  padding-bottom: 2.5rem; */
   background-color: #ffffff;
   min-height: 100%;
   display: flex;
@@ -432,8 +422,6 @@ ul {
 }
 
 .pricing {
-  /* padding-top: 2.5rem;
-  padding-bottom: 2.5rem; */
   background-color: #fef038;
   min-height: 100%;
   display: flex;
@@ -481,8 +469,6 @@ ul {
 }
 
 .team {
-  /* padding-top: 2.5rem;
-  padding-bottom: 2.5rem; */
   background-color: #ffffff;
   min-height: 100%;
   display: flex;
@@ -500,16 +486,6 @@ ul {
   display: block;
   text-align: center;
   position: relative;
-}
-
-.teamBox .content {
-  /* max-width: 100%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%); */
 }
 
 .teamBox .content .filter {
@@ -546,17 +522,14 @@ ul {
 /*Default state for brightness has to be specified specifically*/
 .teamBox a img.brightness:hover {
 	-webkit-filter: brightness(0);
-  /* color: #fef038; */
 }
 .grayscale {
-  /* filter: #fef038; */
 }
 
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #000000;
-  /* height: 100%; */
 }
 @media screen and (max-width: 340px) {
   footer.footer .socialMedia .coluna {
@@ -634,7 +607,6 @@ footer.footer .contact a:hover, a:active {
 }
 
 footer.footer .logos {
-  /* max-width: 90%; */
   padding-top: 2rem;
 }
 
@@ -646,36 +618,3 @@ footer.footer .logos img {
   max-width: 9rem;
   max-height: 2.5rem;
 }
-/* @media screen and (min-width: 1441px) {
-  footer.footer .logos {
-    max-width: 90%;
-  }
-}
-@media screen and (min-width: 1956px) {
-  footer.footer .logos {
-    max-width: 50%;
-  }
-} */
-/* @media screen and (max-width: 978px) {
-  footer.footer .logos {
-    display: none;
-  }
-}
-
-footer.footer .logosSM {
-  max-width: 80%;
-  padding-top: 2rem;
-}
-
-footer.footer .logosSM a {
-  text-decoration: none;
-}
-
-footer.footer .logosSM img {
-  max-height: 1.5rem;
-}
-@media screen and (min-width: 978px) {
-  footer.footer .logosSM {
-    display: none;
-  }
-} */
