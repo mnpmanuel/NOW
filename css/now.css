@@ -2,7 +2,6 @@ body,
 html {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -124,6 +123,17 @@ ul {
 @media screen and (max-width: 457px) {
   .masthead .nowman {
     display: none;
+  }
+}
+
+@media (min-width: 458px) and (max-width: 599px) {
+  .masthead .nowman {
+    max-width: 70%;
+  }
+}
+@media (min-width: 600px) and (max-width: 970px) {
+  .masthead .nowman {
+    max-width: 90%;
   }
 }
 
