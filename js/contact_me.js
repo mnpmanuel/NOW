@@ -23,9 +23,11 @@ $(function() {
         url: "././mail/contact_me.php",
         type: "POST",
         data: {
+          local: local,
           name: name,
           phone: phone,
           email: email,
+          space: space,
           message: message
         },
         cache: false,
