@@ -638,3 +638,27 @@ footer.footer .logos img {
   max-width: 9rem;
   max-height: 2.5rem;
 }
+
+footer.footer .copyright {
+  margin-top: 10px;
+}
+footer.footer .copyright p {
+  font-size: 0.6em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+footer.footer .copyright a {
+  text-decoration: none;
+}
+
+footer.footer .copyright a:link, a:visited {
+  color: #fef038;
+  text-decoration: none;
+}
+
+footer.footer .copyright a:hover, a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
