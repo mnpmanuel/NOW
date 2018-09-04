@@ -2,14 +2,14 @@
 <html lang="en">
 
   <head>
-      
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115891615-1"></script>
     <script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
-    
+
      gtag('config', 'UA-115891615-1');
     </script>
 
@@ -42,7 +42,7 @@
 
     <!-- Custom CSS -->
     <link href="css/now.min.css" rel="stylesheet">
-    
+
     <!-- Facebook Pixel Code -->
     <script>
      !function(f,b,e,v,n,t,s)
@@ -73,7 +73,7 @@
             <div class="col-6">
               <img src="img/now.png">
               <h2><a class="js-scroll-trigger" href="#manifest">_MANIFEST</a></h2>
-              <h2><span class="mastheadCity">_<a class="js-scroll-trigger" href="#porto">PORTO</a> | <a class="js-scroll-trigger" href="#lisboa">LISBON</a></span></h2>
+              <h2><span class="mastheadCity"><a class="js-scroll-trigger" href="#locations">_LOCATIONS</a></span></h2>
               <h2><a class="js-scroll-trigger" href="#community">_COMMUNITY</a></h2>
               <h2><a class="js-scroll-trigger" href="#plans">_PLANS</a></h2>
               <!--<h2><a class="js-scroll-trigger" href="#team">_TEAM</a></h2>-->
@@ -108,23 +108,61 @@
     </section>
 
     <!-- Cities -->
-    <section class="porto" id="porto">
+    <section class="porto" id="locations">
       <div class="container">
-        <h1>PORTO</h1>
-        <h2><a data-toggle="collapse" data-parent="#panel-6" href="#panel-element-6">_WHERE IN THE CITY IS NOW_PORTO?</a></h2>
-        <p id="panel-element-6" class="panel-collapse collapse mapLink">Bairro do Amial, Estrada da Circunvalação 9543, 4250-148 Porto. Get directions <a href="https://www.google.pt/maps/dir//Estrada+da+Circunvalação+9543,+4250-148+Porto/@39.9382682,-9.9522163,8z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd2465ca371d63fd:0xe8e2b7d85797b1af!2m2!1d-8.620412!2d41.180485!3e0" target="_blank">here</a>.</p>
-        <h2><a data-toggle="collapse" data-parent="#panel-7" href="#panel-element-7">_WHEN IS IT OPEN?</a></h2>
-        <p id="panel-element-7" class="panel-collapse collapse">NOW, of course and from 9am to 7pm.</p>
-        <h2><a data-toggle="collapse" data-parent="#panel-8" href="#panel-element-8">_WHAT DO WE OFFER HERE?</a></h2>
-        <p id="panel-element-8" class="panel-collapse collapse">Meeting rooms, indoor and outdoor auditorium, lounge, wifi, coffee and more.</p>
-        <h2><a data-toggle="collapse" data-parent="#panel-9" href="#panel-element-9">_WHO WORKS HERE?</a></h2>
-        <p id="panel-element-9" class="panel-collapse collapse">Freelancers, small companies, startups, nomads,… and you.</p>
-        <h2><a data-toggle="collapse" data-parent="#panel-10" href="#panel-element-10">_HOW CAN YOU REACH US?</a></h2>
-        <p id="panel-element-10" class="panel-collapse collapse"><a href="mailto:info@no-office-work.com">info@no-office-work.com</a></p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="padding-bottom: 50px;">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" style="height: 50px;">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/img1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/img2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="row mx-auto">
+          <div class="col-md-4 text-center mb-5">
+            <span class="mx-auto">
+              <h4 style="color: #ffffff;">NOW_ PORTO</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5><a href="porto.html">_FIND OUT MORE</a></h5>
+            </span>
+          </div>
+          <div class="col-md-4 text-center mb-5">
+            <span class="mx-auto">
+              <h4 style="color: #ffffff;">NOW_ BEATO</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5><a href="#community">_FIND OUT MORE</a></h5>
+            </span>
+          </div>
+          <div class="col-md-4 text-center mb-5">
+            <span class="mx-auto">
+              <h4 style="color: #ffffff;">NOW_ COWORKLISBOA</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5><a href="#community">_FIND OUT MORE</a></h5>
+            </span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="lisboa" id="lisboa">
+    <!--<section class="lisboa" id="lisboa">
       <div class="container">
         <h1>LISBON</h1>
         <h2><a data-toggle="collapse" data-parent="#panel-1" href="#panel-element-1">_WHERE IN THE CITY IS NOW_BEATO?</a></h2>
@@ -138,13 +176,13 @@
         <h2><a data-toggle="collapse" data-parent="#panel-5" href="#panel-element-5">_HOW CAN YOU REACH US?</a></h2>
         <p id="panel-element-5" class="panel-collapse collapse"><a href="mailto:info@no-office-work.com">info@no-office-work.com</a></p>
       </div>
-    </section>
+    </section>-->
 
     <!-- Community -->
     <section class="community" id="community">
       <div class="container">
         <div class="row mx-auto">
-          <div class="col-md-4 text-center mb-5">
+          <!--<div class="col-md-4 text-center mb-5">
             <span class="mx-auto">
               <a href="http://bit.ly/2BZ3fTc" target="_blank"><img src="img/logos/community/buddyDigital1.png" srcset="img/logos/community/buddyDigital1SM.png 1x, img/logos/community/buddyDigital1.png 2x, img/logos/community/buddyDigital1.png 3x"></a>
             </span>
@@ -174,13 +212,18 @@
               <a href="https://workshoped.com/" target="_blank"><img src="img/logos/community/Workshoped.png" srcset="img/logos/community/WorkshopedSM.png 1x, img/logos/community/Workshoped.png 2x, img/logos/community/Workshoped.png 3x"></a>
             </span>
           </div>
+        </div>-->
+        <!-- InstaWidget -->
+        <div class="text-center">
+          <a href="https://instawidget.net/v/user/now_noofficework" id="link-8a3d3a68687c6ddb06b65c36348450dab3cea27195e055b64ef248a37ea145e7">@now_noofficework</a>
+          <script src="https://instawidget.net/js/instawidget.js?u=8a3d3a68687c6ddb06b65c36348450dab3cea27195e055b64ef248a37ea145e7&width=500px"></script>
         </div>
         <h1>WE DON'T GIVE A SHIFT</h1>
       </div>
     </section>
 
     <!-- Princing -->
-    <section class="pricing" id="plans">
+    <!--<section class="pricing" id="plans">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-5 mb-lg-0">
@@ -250,103 +293,6 @@
         </div>
         <div class="tax">
           <p>VAT included</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <!--<section class="team" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">
-                  <a href="https://www.linkedin.com/in/miguelmunozduarte/" target="_blank"><img src="img/MiguelMunozDuarte.jpg" srcset="img/MiguelMunozDuarteSM.jpg 1x, img/MiguelMunozDuarte.jpg 2x, img/MiguelMunozDuarte.jpg 3x" class="grayscale"></a>
-                </div>
-                <h5>MIGUEL M. DUARTE</h5>
-                <!-- <p>CEO&FOUNDER</p> -->
-              <!--</span>
-            </span>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">
-                  <a href="https://www.linkedin.com/in/paulodias1/" target="_blank"><img src="img/PauloDias.jpg" srcset="img/PauloDiasSM.jpg 1x, img/PauloDias.jpg 2x, img/PauloDias.jpg 3x" class="grayscale"></a>
-                </div>
-                <h5>PAULO DIAS</h5>-->
-                <!-- <p>CFO&FOUNDER</p> -->
-              <!--</span>
-            </span>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">
-                  <a href="https://www.linkedin.com/in/coworklisboa/" target="_blank"><img src="img/FernandoMendes.jpg" srcset="img/FernandoMendesSM.jpg 1x, img/FernandoMendes.jpg 2x, img/FernandoMendes.jpg 3x" class="grayscale"></a>
-                </div>
-                <h5>FERNANDO MENDES</h5>-->
-                <!-- <p>CCO&FOUNDER</p> -->
-              <!--</span>
-            </span>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">
-                  <a href="https://www.linkedin.com/in/filipa-baptista-b9813756/" target="_blank"><img src="img/FilipaBaptista.jpg" srcset="img/FilipaBaptistaSM.jpg 1x, img/FilipaBaptista.jpg 2x, img/FilipaBaptista.jpg 3x" class="grayscale"></a>
-                </div>
-                <h5>FILIPA BAPTISTA</h5>-->
-                <!-- <p>DIRECTOR</p> -->
-              <!--</span>
-            </span>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">
-                  <a href="https://www.linkedin.com/in/ana-gagean-soares-09013831/" target="_blank"><img src="img/AnaGagean.png" srcset="img/AnaGageanSM.png 1x, img/AnaGagean.png 2x, img/AnaGagean.png 3x" class="grayscale"></a>
-                </div>
-                <h5>ANA GAGEAN</h5>-->
-                <!-- <p>NOW_PORTO MANAGER</p> -->
-              <!--</span>
-            </span>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">
-                  <a href=""><img src="img/AnaDias.jpeg" srcset="img/AnaDiasSM.jpg 1x, img/AnaDias.jpeg 2x, img/AnaDias.jpeg 3x" class="grayscale"></a>
-                </div>
-                <h5>ANA DIAS</h5>-->
-                <!-- <p>NOW_LISBOA MANAGER</p> -->
-              <!--</span>
-            </span>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">
-                  <a href="https://www.linkedin.com/in/diogoansilva/" target="_blank"><img src="img/DiogoSilva.jpg" srcset="img/DiogoSilvaSM.jpg 1x, img/DiogoSilva.jpg 2x, img/DiogoSilva.jpg 3x" class="grayscale"></a>
-                </div>
-                <h5>DIOGO SILVA</h5>-->
-                <!-- <p>EVENTS MANAGER</p> -->
-              <!--</span>
-            </span>
-          </div>-->
-          <!--<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="teamBox mx-auto mb-3">
-              <span class="content">
-                <div class="filter mx-auto">-->
-                  <!-- <a href="https://www.linkedin.com/in/bruno-maltez-800b466/" target="_blank"><img src="img/BrunoMaltez.jpg" srcset="img/BrunoMaltezSM.jpg 1x, img/BrunoMaltez.jpg 2x, img/BrunoMaltez.jpg 3x" class="grayscale"></a> -->
-                  <!--<a href="https://www.linkedin.com/in/bruno-maltez-800b466/" target="_blank"><img src="img/BrunoMaltez.jpg" class="grayscale"></a>
-                </div>
-                <h5>BRUNO MALTEZ</h5>-->
-                <!-- <p>INTERIOR ARCHITECT</p> -->
-              <!--</span>
-            </span>
-          </div>
         </div>
       </div>
     </section>-->

@@ -12,6 +12,11 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.btn-primary {
+  background-color: #fef038;
+  border-color: #fef038;
+}
+
 .content-section {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -242,6 +247,24 @@ ul {
   background-color: rgb(254, 253, 56);
 }
 
+.coworkspace {
+  max-height: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.coworkspace img {
+  max-height: 100%;
+}
+
+.locationsimg {
+  max-height: 50px;
+}
+
+.w-100 {
+  max-height: 50%;
+}
+
 .lisboa {
   font-weight: bold;
   min-height: 100%;
@@ -311,6 +334,10 @@ ul {
 .porto .container {
   -webkit-flex: 1; /* Safari 6.1+ */
   flex: 1;
+}
+
+.porto .carousel .carousel-inner {
+  height: 50px;
 }
 
 .porto h1 {
