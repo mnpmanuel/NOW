@@ -14,8 +14,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #fef038;
-  border-color: #fef038;
+  background-color: #000000;
+  border-color: #000000;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }

@@ -14,8 +14,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #fef038;
-  border-color: #fef038;
+  background-color: #000000;
+  border-color: #f00000;
 }
 
 .content-section {
@@ -391,7 +391,6 @@ ul {
   }
 }*/
 .community h1 {
-  margin-top: -5%;
   letter-spacing: -7px;
   color: #000000;
 }
