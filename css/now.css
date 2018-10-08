@@ -255,7 +255,8 @@ ul {
 }
 
 .coworkspace img {
-  max-height: 100%;
+  max-width: 100%;
+    height: auto;
 }
 
 .lisboa {
@@ -327,6 +328,10 @@ ul {
 .spaces .container {
   -webkit-flex: 1; /* Safari 6.1+ */
   flex: 1;
+}
+
+.spaces img {
+  max-width:100%;
 }
 
 .spaces h1 {
