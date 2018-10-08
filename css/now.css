@@ -363,6 +363,27 @@ ul {
   text-decoration: none;
 }
 
+.modal-dialog {
+  max-width: 90%;
+  border: 0px;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-primary:hover {
+  background-color: #e8d801;
+  border-color: #e8d801;
+}
+
 .community {
   background-color: #ffffff;
   min-height: 100%;
