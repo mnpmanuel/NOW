@@ -41,6 +41,10 @@ h6 {
   font-weight: 700;
 }
 
+h2{
+  font-size: 1.5rem;
+}
+
 ul {
   list-style: none;
 }
@@ -529,6 +533,33 @@ ul {
 .pricing .tax {
   font-weight: bold;
   text-align: right;
+}
+
+.tax {
+  max-width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+@media screen and (max-width: 576px) {
+  .tax p {
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .pricing .pricingTitle {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) {
+  .pricing .pricingTitleMobile {
+    display: none;
+  }
 }
 
 .team {
