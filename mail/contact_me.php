@@ -39,7 +39,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 
 # Define a mensagem (Texto e Assunto)
 $mail->Subject = "NOW Contact Form:  $name"; # Assunto da mensagem
-$mail->Body = "You have received a new message from your website contact form.<br>"."Here are the details:<br>Location: $local<br>Name: $name<br>Email: $email_address<br>Phone: $phone<br>Wants: $space<br>Message: $message";
+$mail->Body = "You have received a new message from your website contact form.<br><br>"."Here are the details:<br>Location: $local<br>Name: $name<br>Email: $email_address<br>Phone: $phone<br>Wants: $space<br>Message: $message";
 $mail->AltBody = "Este é o corpo da mensagem de teste, somente Texto! \r\n :)";
 
 # Define os anexos (opcional)
