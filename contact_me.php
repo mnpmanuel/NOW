@@ -22,7 +22,7 @@ $mail->Password = 'Penacova2019'; // # Password do e-mail
 $mail->From = "noreply@no-office-work.com"; # Seu e-mail
 $mail->FromName = "No Office Work"; // Seu nome
 # Define os destinatário(s)
-$mail->AddAddress('mp@imatch.pt', 'Pessoa Nome 1'); # Os campos podem ser substituidos por variáveis
+$mail->AddAddress('info@no-office-work.com', 'No Office Work'); # Os campos podem ser substituidos por variáveis
 #$mail->AddAddress('webmaster@nomedoseudominio.pt'); # Caso queira receber uma copia
 #$mail->AddCC('pessoa2@dominio.pt', 'Pessoa Nome 2'); # Copia
 #$mail->AddBCC('pessoa3@dominio.pt', 'Pessoa Nome 3'); # Cópia Oculta
