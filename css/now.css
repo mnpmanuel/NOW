@@ -154,6 +154,16 @@ ul {
   }
 }
 
+@media (max-width: 375px) {
+  .masthead {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .masthead h2 {
+    font-size: 1.2rem;
+  }
+}
+
 .masthead .topnav {
   text-align: right;
   margin-top: -1%;
