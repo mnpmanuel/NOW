@@ -258,17 +258,6 @@ ul {
   background-color: rgb(254, 253, 56);
 }
 
-.coworkspace {
-  max-height: 90%;
-  display: flex;
-  align-items: center;
-}
-
-.coworkspace img {
-  max-width: 100%;
-    height: auto;
-}
-
 .carousel-indicators li {
   width: 0px;
 }
