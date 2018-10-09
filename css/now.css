@@ -462,26 +462,30 @@ ul {
   text-decoration: none;
 }
 
-.pricing .tax {
+.pricingBox .pricingBoxInfo {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.pricingBox .pricingBoxUnavailable{
+  color: #D3D3D3;
+}
+
+/* .pricing .tax {
   font-weight: bold;
   text-align: right;
-}
+} */
 
 .tax {
-  max-width: 100%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  font-size: 0.7rem;
+  font-weight: 600;
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .tax p {
     padding-bottom: 25px;
   }
-}
+} */
 
 @media screen and (max-width: 575px) {
   .pricing .pricingTitle {
