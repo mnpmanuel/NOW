@@ -161,14 +161,12 @@ ul {
   color: #ffffff;
 }
 
-.topnav a:link,
-.topnav a:visited {
+.topnav a:link, a:visited {
     text-transform: uppercase;
     color: #ffffff;
     margin-right: 0%;
 }
-.topnav a:hover,
-.topnav a:focus {
+.topnav a:hover, a:active {
     color: #fef038;
 }
 
@@ -203,14 +201,12 @@ ul {
   color: #ffffff;
 }
 
-.topnavMobile a:link,
-.topnavMobile a:visited {
+.topnavMobile a:link, a:visited {
     text-transform: uppercase;
     color: #ffffff;
     margin-right: 0%;
 }
-.topnavMobile a:hover,
-.topnavMobile a:focus {
+.topnavMobile a:hover, a:active {
     color: #fef038;
 }
 
@@ -261,64 +257,6 @@ ul {
 .coworkspace img {
   max-width: 100%;
     height: auto;
-}
-
-.lisboa {
-  font-weight: bold;
-  min-height: 100%;
-  background-color: #000000;
-  display: flex;
-  align-items: center;
-}
-
-.lisboa .container {
-  -webkit-flex: 1; /* Safari 6.1+ */
-  flex: 1;
-}
-
-.lisboa h1 {
-  font-size: 15rem;
-  color: #fef038;
-  letter-spacing: -15px;
-}
-@media screen and (max-width: 991px) {
-  .lisboa h1 {
-    font-size: 10rem;
-  }
-}
-@media screen and (max-width: 514px) {
-  .lisboa h1 {
-    font-size: 7rem;
-  }
-}
-@media screen and (max-width: 361px) {
-  .lisboa h1 {
-    font-size: 5.5rem;
-  }
-}
-
-.lisboa p {
-  color: #ffffff;
-}
-
-.lisboa a:link, a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.lisboa a:hover, a:active {
-  color: #fef038;
-  text-decoration: none;
-}
-
-.lisboa .mapLink a:link, a:visited {
-  color: #fef038;
-  text-decoration: none;
-}
-
-.lisboa .mapLink a:hover, a:active {
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .spaces {
@@ -424,6 +362,16 @@ ul {
   flex: 1;
 }
 
+.community a:link, a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.community a:hover, a:active {
+  color: #fef038;
+  text-decoration: none;
+}
+
 /*@media screen and (min-width: 1023px) {
   .community h1 {
     margin-top: 50px;
@@ -441,51 +389,35 @@ ul {
 }*/
 .community h1 {
   letter-spacing: -7px;
-  color: #000000;
 }
 @media screen and (min-width: 319px) {
   .community h1 {
     font-size: 1.5rem;
     letter-spacing: -2px;
-    color: #000000;
   }
 }
 @media screen and (min-width: 424px) {
   .community h1 {
     font-size: 2rem;
-    color: #000000;
   }
 }
 @media screen and (min-width: 767px) {
   .community h1 {
     font-size: 3.5rem;
     letter-spacing: -4px;
-    color: #000000;
   }
 }
 @media screen and (min-width: 1023px) {
   .community h1 {
     font-size: 4rem;
     letter-spacing: -5px;
-    color: #000000;
   }
 }
 @media screen and (min-width: 1439px) {
   .community h1 {
     font-size: 6rem;
     letter-spacing: -7px;
-    color: #000000;
   }
-}
-
-.community img {
-  max-width: 15rem;
-  max-height: 10rem;
-}
-
-.community select {
-   -webkit-appearance:menu-item; // or menulist-button
-   -moz-appearance: none;
 }
 
 .pricing {
@@ -517,7 +449,7 @@ ul {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .pricingBox a:link, a:visited {
@@ -562,177 +494,64 @@ ul {
   }
 }
 
-.team {
-  background-color: #ffffff;
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-}
-.team .container {
-  -webkit-flex: 1; /* Safari 6.1+ */
-  flex: 1;
-}
-
-
-.teamBox {
-  height: 15rem;
-  width: 15rem;
-  display: block;
-  text-align: center;
-  position: relative;
-}
-
-.teamBox .content .filter {
-  max-width: 65%;
-}
-
-.teamBox .content .filter img {
-  max-width: 100%;
-}
-
-.teamBox a {
-	display: block;
-	float: left;
-	margin-bottom: 25px;
-	position: relative;
-
-}
-
-/*Left and Right margins to images in the middle column*/
-/*This selects the 2nd, 5th and 8th elements*/
-.teamBox a:nth-child(3n+2) {
-  margin: 0 25px 25px 25px;
-}
-
-.teamBox a img {
-	display: block;
-	-webkit-transition: all 0.5s;
-}
-
-/*Hover effects*/
-.teamBox a img:hover {
-  -webkit-filter: opacity(50%);
-}
-/*Default state for brightness has to be specified specifically*/
-.teamBox a img.brightness:hover {
-	-webkit-filter: brightness(0);
-}
-.grayscale {
-}
-
-footer.footer {
+footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #000000;
 }
+
+footer a:link, a:visited {
+  color: #fef038;
+  text-decoration: none;
+}
+
+footer a:hover, a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 340px) {
-  footer.footer .socialMedia .coluna {
+  footer .socialMedia .coluna {
     display: none;
   }
 }
 @media screen and (max-width: 767px) {
-  footer.footer .socialMedia {
+  footer .socialMedia {
     margin-bottom: 5%;
   }
 }
 
-footer.footer .social-link {
+footer .socialMedia .social-link {
   display: block;
   height: 2.5rem;
   width: 2.5rem;
   line-height: 2.5rem;
   font-size: 1.2rem;
   background-color: #ffffff;
-  color: #000000;
+  color: #000000 !important;
   transition: background-color 0.15s ease-in-out;
 }
 
-footer.footer .social-link:hover {
+footer .social-link:hover {
   background-color: #fef038;
   text-decoration: none;
+  color: #ffffff !important;
 }
 
-footer.footer .socialMediaXS {
-  margin-left: 38%;
-  padding-bottom: 0%;
-}
-
-footer.footer .social-linkXS {
-  display: block;
-  height: 2.5rem;
-  width: 2.5rem;
-  line-height: 2.5rem;
-  font-size: 1.2rem;
-  background-color: #ffffff;
-  color: #000000;
-  transition: background-color 0.15s ease-in-out;
-}
-
-footer.footer .social-linkXS:hover {
-  background-color: #fef038;
-  text-decoration: none;
-}
-
-@media screen and (min-width: 540px) {
-  footer.footer .socialMediaXS {
-    display: none;
-  }
-  footer.footer .social-linkXS {
-    display: none;
-  }
-}
-
-footer.footer h4 {
+footer h4 {
   color: #ffffff;
 }
 
-footer.footer p {
+footer p {
   color: #fef038;
 }
 
-footer.footer .contact a:link, a:visited {
-  color: #fef038;
-  text-decoration: none;
-}
-
-footer.footer .contact a:hover, a:active {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-footer.footer .logos {
-  padding-top: 2rem;
-}
-
-footer.footer .logos a {
-  text-decoration: none;
-}
-
-footer.footer .logos img {
-  max-width: 9rem;
-  max-height: 2.5rem;
-}
-
-footer.footer .copyright {
+footer .copyright {
   margin-top: 10px;
 }
-footer.footer .copyright p {
+footer .copyright p {
   font-size: 0.6em;
   margin-top: 10px;
   margin-bottom: 0px;
   color: #ffffff;
-}
-
-footer.footer .copyright a {
-  text-decoration: none;
-}
-
-footer.footer .copyright a:link, a:visited {
-  color: #fef038;
-  text-decoration: none;
-}
-
-footer.footer .copyright a:hover, a:active {
-  color: #ffffff;
-  text-decoration: none;
 }
