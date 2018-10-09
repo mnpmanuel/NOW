@@ -34,7 +34,7 @@ $local = strip_tags(htmlspecialchars($_POST['local']));
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
-$space = strip_tags(htmlspecialchars($_POST['space']));
+$space = strip_tags(htmlspecialchars($_POST["space"]));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
 # Define a mensagem (Texto e Assunto)
