@@ -372,21 +372,6 @@ ul {
   flex: 1;
 }
 
-/*@media screen and (min-width: 1023px) {
-  .community h1 {
-    margin-top: 50px;
-  }
-}
-@media screen and (min-width: 1439px) {
-  .community h1 {
-    margin-top: 100px;
-  }
-}
-@media screen and (min-width: 2559px) {
-  .community h1 {
-    margin-top: 250px;
-  }
-}*/
 .community h1 {
   letter-spacing: -7px;
 }
@@ -452,6 +437,19 @@ ul {
   transform: translate(-50%, -50%);
 }
 
+@media (min-width: 992px) and (max-width: 1250px) {
+  .pricing .pricingBox{
+    height: 8rem;
+    width: 8rem;
+  }
+  .pricingBox h5 {
+    font-size: 1em;
+  }
+  .pricingBox p {
+    font-size: 0.7em;
+  }
+}
+
 .pricingBox a:link, a:visited {
   color: #000000;
   text-decoration: none;
@@ -471,21 +469,10 @@ ul {
   color: #D3D3D3;
 }
 
-/* .pricing .tax {
-  font-weight: bold;
-  text-align: right;
-} */
-
 .tax {
   font-size: 0.7rem;
   font-weight: 600;
 }
-
-/* @media screen and (max-width: 576px) {
-  .tax p {
-    padding-bottom: 25px;
-  }
-} */
 
 @media screen and (max-width: 575px) {
   .pricing .pricingTitle {
