@@ -262,17 +262,6 @@ ul {
   width: 0px;
 }
 
-.carousel-content {
-  font-weight: 500;
-  font-size: 14px;
-  position: absolute;
-  bottom: 2%;
-  left: 5%;
-  z-index: 20;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0,0,0,.6);
-}
-
 .spaces {
   font-weight: bold;
   background-color: #fef038;
@@ -324,6 +313,23 @@ ul {
   font-weight: 500;
 }
 
+.spaces .carousel-content {
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.spaces .carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .modal-dialog {
   max-width: 90%;
   border: 0px;
@@ -331,7 +337,7 @@ ul {
 
 .modal {
   text-align: center;
-  padding: 0!important;
+  padding: 0;
 }
 
 .modal:before {
@@ -495,6 +501,11 @@ ul {
   }
 }
 
+.pricingHelp {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -529,14 +540,14 @@ footer .socialMedia .social-link {
   line-height: 2.5rem;
   font-size: 1.2rem;
   background-color: #ffffff;
-  color: #000000 !important;
+  color: #000000;
   transition: background-color 0.15s ease-in-out;
 }
 
 footer .social-link:hover {
   background-color: #fef038;
   text-decoration: none;
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 footer h4 {
