@@ -320,6 +320,10 @@ ul {
   text-decoration: none;
 }
 
+.spaces .spaceText p {
+  font-weight: 500;
+}
+
 .modal-dialog {
   max-width: 90%;
   border: 0px;
